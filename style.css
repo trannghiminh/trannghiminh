@@ -79,6 +79,7 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     gap: 2em;
+    flex-wrap: wrap;
 }
 
 .product {
@@ -105,6 +106,7 @@ header nav ul li a {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .customize-btn:hover {
@@ -112,7 +114,6 @@ header nav ul li a {
 }
 
 .customization-form {
-    display: none;
     padding: 2em 1em;
     text-align: center;
     background-color: #f9f9f9;
