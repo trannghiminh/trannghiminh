@@ -39,21 +39,17 @@ function calculatePrice() {
         const paperType = layerSelect.value;
         switch (paperType) {
             case 'paper1':
-                pricePerSquareMeter += 50; // Example price per m^2 for paper 1
+                pricePerSquareMeter += 50000; // Example price per m^2 for paper 1
                 break;
             case 'paper2':
-                pricePerSquareMeter += 70; // Example price per m^2 for paper 2
+                pricePerSquareMeter += 70000; // Example price per m^2 for paper 2
                 break;
             case 'paper3':
-                pricePerSquareMeter += 90; // Example price per m^2 for paper 3
+                pricePerSquareMeter += 90000; // Example price per m^2 for paper 3
                 break;
         }
     }
 
     const totalPrice = pricePerSquareMeter * area;
     document.getElementById('price-display').textContent = `Giá: ${totalPrice.toFixed(2)} VND`;
-}
-
-function openCustomizationForm() {
-    document.getElementById('customization-form').style.display = 'block';
 }
