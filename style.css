@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #003366; /* Medium blue */
+    color: white;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    margin-left: 1em;
+}
+
+.logo-placeholder {
+    width: 50px;
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-placeholder.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5em 0;
+    background-color: #cc0000; /* Medium red */
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+.cta-button {
+    background-color: #ff6347; /* Medium red */
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.featured-products {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product h3 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.customize-btn {
+    background-color: #003366; /* Medium blue */
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.customize-btn:hover {
+    background-color: #002244; /* Darker blue */
+}
+
+.customization-form {
+    display: none;
+    padding: 2em 1em;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.customization-form h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.customization-form label {
+    display: block;
+    margin: 0.5em 0;
+}
+
+.customization-form input,
+.customization-form select {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.customization-form button {
+    background-color: #003366; /* Medium blue */
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.customization-form button:hover {
+    background-color: #002244; /* Darker blue */
+}
+
+#price-display {
+    margin-top: 1em;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.footer-content {
+    background-color: #003366; /* Medium blue */
+    color: white;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.footer-content a {
+    color: #ff6347; /* Medium red */
+    text-decoration: none;
+}
